@@ -74,7 +74,7 @@ const getSkuFromProductItem = (item) =>
 
 const getCartItem = (item) => {
   let i = 0;
-  cartItemsList.forEach((element) =>{
+  cartItemsList.forEach((element) => {
     if (element.sku === item) {
       i = cartItemsList.indexOf(element);
   }
